@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morluc Distributions | Reinventando la Logística</title>
+    <meta
+      name="description"
+      content="Morluc Distributions, soluciones logísticas de nueva generación."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- Pantalla de Error Inicial -->
+    <div id="error-screen">
+      <div class="error-content">
+        <div class="glitch-code">ERROR_404: DATA_ERASED</div>
+        <div class="glitch-code">RECONSTRUCTING_MORLUC_CORE...</div>
+        <p class="blink">PULSA PARA RESTABLECER SISTEMA</p>
+      </div>
+    </div>
+
+    <!-- Encabezado Principal -->
+    <header>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="logo Morluc" />
+      </div>
+      <div class="nav-links">
+        <a href="#">El Misterio</a>
+        <a href="servicios.html">Servicios 2.0</a>
+        <a href="evidencias.html">Evidencias</a>
+      </div>
+    </header>
+
+    <!-- Contenido -->
+    <main>
+      <section>
+        <header>
+          <h1>Morluc Distributions</h1>
+        </header>
+        <p>Lo que no pudieron borrar, ahora es más fuerte.</p>
+      </section>
+      <!-- Sección: Historia del Misterio -->
+      <section id="historia">
+        <header>
+          <h2>Historia del Misterio: El Resurgir</h2>
+        </header>
+
+        <article>
+          <p>
+            Intentaron desconectarnos, pero la información es energía que no se
+            destruye. Morluc Distributions no es solo una empresa; es el
+            resultado de un vacío digital que decidimos llenar con una
+            estructura más sólida.
+          </p>
+          <p>
+            Nuestra ausencia no fue un final, fue la fase de incubación para lo
+            que somos hoy.
+          </p>
+        </article>
+      </section>
+
+      <section id="desconexion">
+        <aside>
+          <h3>Reporte de Error 404: Historial</h3>
+          <p>
+            Si tienes registros del "borrado" anterior, adjúntalos para nuestro
+            análisis de seguridad.
+          </p>
+        </aside>
+      </section>
+
+      <!-- Sección: Contacto con Pruebas del Incidente -->
+      <section id="contacto">
+        <header>
+          <h2>Contacto: Envía tus Evidencias</h2>
+          <p>
+            ¿Fuiste testigo del reinicio? Déjanos tus datos para restablecer el
+            enlace comercial.
+          </p>
+        </header>
+
+        <form action="/enviar-datos" method="POST">
+          <label for="nombre">Identidad:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre o empresa"
+            required
+          />
+
+          <label for="email">Canal de Enlace:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+          />
+
+          <label for="mensaje">Pruebas del Incidente / Mensaje:</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            placeholder="Cuéntanos qué necesitas o adjunta tu reporte..."
+          ></textarea>
+
+          <button type="submit">Restablecer Conexión</button>
+        </form>
+      </section>
+      <section>
+        <!-- Terminal Oculto (Easter Egg) -->
+        <div id="easter-egg-terminal" class="hidden-terminal">
+          <div class="terminal-header">ACCESO NIVEL 5 - PROTOCOLO MÔRLUC</div>
+          <div class="terminal-body">
+            <p>> VERIFICANDO CREDENCIALES...</p>
+            <p>> [OK] ACCESO CONCEDIDO.</p>
+            <p>> RECUPERANDO ARCHIVOS BORRADOS...</p>
+            <p>> COORDENADAS LOGÍSTICAS: 19.4326° N, 99.1332° W</p>
+            <p>> ESTADO: OPERACIÓN ACTIVA EN LAS SOMBRAS.</p>
+            <button onclick="closeTerminal()" class="btn-close">
+              CERRAR TERMINAL
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+      <p>
+        Centro de Distribución Estratégica<br />
+        Reconectando el flujo logístico global
+      </p>
+      <div>
+        <a href="#">Tik Tok</a> | <a href="#">WhatsApp</a> |
+        <a href="#">Instagram</a>
+      </div>
+      <p>&copy; 2026 Morluc Distributions - Todos los derechos encriptados.</p>
+    </footer>
+  </body>
+</html>
