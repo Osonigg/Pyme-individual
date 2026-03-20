@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="styles.css" />
+<script src="script.js"></script>
 <header>
   <div class="logo">
     <img src="./assets/logo.png" alt="logo Morluc" />
@@ -19,29 +20,29 @@
     <div class="grid-servicios">
       <!-- Servicio 1 -->
       <article class="card-industrial">
-            <h3>Logística Fantasma</h3>
-            <p>
-              Distribución de alta prioridad con protocolos de invisibilidad
-              digital y rutas de contingencia.
-            </p>
+        <h3>Logística Fantasma</h3>
+        <p>
+          Distribución de alta prioridad con protocolos de invisibilidad digital
+          y rutas de contingencia.
+        </p>
       </article>
 
       <!-- Servicio 2 -->
       <article class="card-industrial">
-            <h3>Nodos de Suministro</h3>
-            <p>
-              Almacenamiento descentralizado en puntos estratégicos, diseñado
-              para resistir cualquier interrupción externa.
-            </p>
+        <h3>Nodos de Suministro</h3>
+        <p>
+          Almacenamiento descentralizado en puntos estratégicos, diseñado para
+          resistir cualquier interrupción externa.
+        </p>
       </article>
 
       <!-- Servicio 3 -->
       <article class="card-industrial">
-            <h3>Blindaje de Datos</h3>
-            <p>
-              Gestión de inventarios mediante tecnología de registro distribuido
-              (DLT) que garantiza la trazabilidad absoluta.
-            </p>
+        <h3>Blindaje de Datos</h3>
+        <p>
+          Gestión de inventarios mediante tecnología de registro distribuido
+          (DLT) que garantiza la trazabilidad absoluta.
+        </p>
       </article>
 
       <article class="card-industrial">
@@ -86,21 +87,29 @@
 
 <!-- Botón Flotante del Asistente -->
 <div id="ai-trigger" onclick="toggleChat()">
-    <span class="pulse-ring"></span>
-    <span class="ai-icon">M</span>
+  <span class="pulse-ring"></span>
+  <span class="ai-icon">M</span>
 </div>
 
 <!-- Ventana del Asistente MÔR-IA -->
 <div id="ai-chat-window" class="chat-hidden">
-    <div class="chat-header">
-        <span class="status-dot"></span>
-        <h4>MOR-IA: ENLACE LOGÍSTICO</h4>
-        <button onclick="toggleChat()">×</button>
-    </div>
-    <div id="chat-body" class="chat-body">
-        <p class="bot-msg">SISTEMA REESTABLECIDO. Identificación detectada. ¿Cómo puedo asistir en su distribución hoy?</p>
-    </div>
-    <div class="chat-footer">
-        <input type="text" id="user-input" placeholder="Escribe tu consulta..." onkeypress="handleChat(event)">
-    </div>
+  <div class="chat-header">
+    <span class="status-dot"></span>
+    <h4>MOR-IA: ENLACE LOGÍSTICO</h4>
+    <button onclick="toggleChat()">×</button>
+  </div>
+  <div id="chat-body" class="chat-body">
+    <p class="bot-msg">
+      SISTEMA REESTABLECIDO. Identificación detectada. ¿Cómo puedo asistir en su
+      distribución hoy?
+    </p>
+  </div>
+  <div class="chat-footer">
+    <input
+      type="text"
+      id="user-input"
+      placeholder="Escribe tu consulta..."
+      onkeypress="handleChat(event)"
+    />
+  </div>
 </div>
